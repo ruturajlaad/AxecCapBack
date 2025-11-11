@@ -1,0 +1,3 @@
+DROP TABLE IF EXISTS positions;
+DROP TABLE IF EXISTS orders;
+ALTER TABLE users DROP COLUMN IF EXISTS reserved_margin;
